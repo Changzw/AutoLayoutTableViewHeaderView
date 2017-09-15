@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2FC55622A9951E9215A0BC /* libPods-AutoLayoutTableViewHeaderViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C70C8173BB6DB947E2F58F /* libPods-AutoLayoutTableViewHeaderViewUITests.a */; };
+		78196A19C29786E66BC6D5B1 /* libPods-AutoLayoutTableViewHeaderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 560DB521CA2169A3D8989553 /* libPods-AutoLayoutTableViewHeaderView.a */; };
+		790F41AA1F6C06F400B15E9B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F41A91F6C06F400B15E9B /* TableViewController.m */; };
+		790F41AF1F6C087400B15E9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F41AE1F6C087400B15E9B /* BaseViewController.m */; };
+		790F41B31F6C08CE00B15E9B /* FlexibleHeightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F41B21F6C08CE00B15E9B /* FlexibleHeightView.m */; };
+		790F41B61F6C0E4D00B15E9B /* ErrorTabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F41B51F6C0E4D00B15E9B /* ErrorTabelViewController.m */; };
+		7980A4721F6C059E00025C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7980A4711F6C059E00025C0C /* main.m */; };
+		7980A4751F6C059E00025C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7980A4741F6C059E00025C0C /* AppDelegate.m */; };
+		7980A4781F6C059E00025C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7980A4771F6C059E00025C0C /* ViewController.m */; };
+		7980A47E1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7980A47C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodeld */; };
+		7980A4801F6C059E00025C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7980A47F1F6C059E00025C0C /* Assets.xcassets */; };
+		7980A4831F6C059E00025C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7980A4811F6C059E00025C0C /* LaunchScreen.storyboard */; };
+		7980A48E1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7980A48D1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.m */; };
+		7980A4991F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7980A4981F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.m */; };
+		A70C581FA0FE198398645C86 /* libPods-AutoLayoutTableViewHeaderViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421CE3F405DA88AD38C86EB0 /* libPods-AutoLayoutTableViewHeaderViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7980A48A1F6C059E00025C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7980A4651F6C059E00025C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7980A46C1F6C059E00025C0C;
+			remoteInfo = AutoLayoutTableViewHeaderView;
+		};
+		7980A4951F6C059E00025C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7980A4651F6C059E00025C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7980A46C1F6C059E00025C0C;
+			remoteInfo = AutoLayoutTableViewHeaderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D178BF66FFFDC2917ECC87 /* Pods-AutoLayoutTableViewHeaderViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewTests/Pods-AutoLayoutTableViewHeaderViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		066F888134DD2E03DA8732D8 /* Pods-AutoLayoutTableViewHeaderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderView/Pods-AutoLayoutTableViewHeaderView.release.xcconfig"; sourceTree = "<group>"; };
+		12C70C8173BB6DB947E2F58F /* libPods-AutoLayoutTableViewHeaderViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutTableViewHeaderViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421CE3F405DA88AD38C86EB0 /* libPods-AutoLayoutTableViewHeaderViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutTableViewHeaderViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560DB521CA2169A3D8989553 /* libPods-AutoLayoutTableViewHeaderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutTableViewHeaderView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F41A71F6C069B00B15E9B /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		790F41A81F6C06F400B15E9B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		790F41A91F6C06F400B15E9B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		790F41AD1F6C087400B15E9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		790F41AE1F6C087400B15E9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		790F41B11F6C08CE00B15E9B /* FlexibleHeightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleHeightView.h; sourceTree = "<group>"; };
+		790F41B21F6C08CE00B15E9B /* FlexibleHeightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleHeightView.m; sourceTree = "<group>"; };
+		790F41B41F6C0E4D00B15E9B /* ErrorTabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorTabelViewController.h; sourceTree = "<group>"; };
+		790F41B51F6C0E4D00B15E9B /* ErrorTabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorTabelViewController.m; sourceTree = "<group>"; };
+		7980A46D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutTableViewHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7980A4711F6C059E00025C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7980A4731F6C059E00025C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7980A4741F6C059E00025C0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7980A4761F6C059E00025C0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7980A4771F6C059E00025C0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7980A47D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoLayoutTableViewHeaderView.xcdatamodel; sourceTree = "<group>"; };
+		7980A47F1F6C059E00025C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7980A4821F6C059E00025C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7980A4841F6C059E00025C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7980A4891F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTableViewHeaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7980A48D1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewHeaderViewTests.m; sourceTree = "<group>"; };
+		7980A48F1F6C059E00025C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7980A4941F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTableViewHeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7980A4981F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewHeaderViewUITests.m; sourceTree = "<group>"; };
+		7980A49A1F6C059E00025C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A569255183CC9140D52A6B4D /* Pods-AutoLayoutTableViewHeaderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderView/Pods-AutoLayoutTableViewHeaderView.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DA8777B4950F67345E58C7 /* Pods-AutoLayoutTableViewHeaderViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewUITests/Pods-AutoLayoutTableViewHeaderViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B91817E839A812B8750EE664 /* Pods-AutoLayoutTableViewHeaderViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewTests/Pods-AutoLayoutTableViewHeaderViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C60B7D0E3E7D895408344C82 /* Pods-AutoLayoutTableViewHeaderViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutTableViewHeaderViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewUITests/Pods-AutoLayoutTableViewHeaderViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7980A46A1F6C059E00025C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78196A19C29786E66BC6D5B1 /* libPods-AutoLayoutTableViewHeaderView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4861F6C059E00025C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70C581FA0FE198398645C86 /* libPods-AutoLayoutTableViewHeaderViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4911F6C059E00025C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2FC55622A9951E9215A0BC /* libPods-AutoLayoutTableViewHeaderViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533487A68D83CA7707228830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560DB521CA2169A3D8989553 /* libPods-AutoLayoutTableViewHeaderView.a */,
+				421CE3F405DA88AD38C86EB0 /* libPods-AutoLayoutTableViewHeaderViewTests.a */,
+				12C70C8173BB6DB947E2F58F /* libPods-AutoLayoutTableViewHeaderViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790F41AB1F6C084400B15E9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				790F41B11F6C08CE00B15E9B /* FlexibleHeightView.h */,
+				790F41B21F6C08CE00B15E9B /* FlexibleHeightView.m */,
+				790F41A81F6C06F400B15E9B /* TableViewController.h */,
+				790F41A91F6C06F400B15E9B /* TableViewController.m */,
+				7980A4761F6C059E00025C0C /* ViewController.h */,
+				7980A4771F6C059E00025C0C /* ViewController.m */,
+				790F41AD1F6C087400B15E9B /* BaseViewController.h */,
+				790F41AE1F6C087400B15E9B /* BaseViewController.m */,
+				790F41B41F6C0E4D00B15E9B /* ErrorTabelViewController.h */,
+				790F41B51F6C0E4D00B15E9B /* ErrorTabelViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		790F41AC1F6C085000B15E9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7980A4731F6C059E00025C0C /* AppDelegate.h */,
+				7980A4741F6C059E00025C0C /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		790F41B01F6C08AA00B15E9B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				790F41A71F6C069B00B15E9B /* prefix.pch */,
+				7980A47F1F6C059E00025C0C /* Assets.xcassets */,
+				7980A4811F6C059E00025C0C /* LaunchScreen.storyboard */,
+				7980A4841F6C059E00025C0C /* Info.plist */,
+				7980A47C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodeld */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		7980A4641F6C059E00025C0C = {
+			isa = PBXGroup;
+			children = (
+				7980A46F1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */,
+				7980A48C1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests */,
+				7980A4971F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests */,
+				7980A46E1F6C059E00025C0C /* Products */,
+				BFF3E42BDB216B0DFA58E78D /* Pods */,
+				533487A68D83CA7707228830 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7980A46E1F6C059E00025C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7980A46D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.app */,
+				7980A4891F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.xctest */,
+				7980A4941F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7980A46F1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				790F41B01F6C08AA00B15E9B /* Resource */,
+				790F41AC1F6C085000B15E9B /* App */,
+				790F41AB1F6C084400B15E9B /* View */,
+				7980A4701F6C059E00025C0C /* Supporting Files */,
+			);
+			path = AutoLayoutTableViewHeaderView;
+			sourceTree = "<group>";
+		};
+		7980A4701F6C059E00025C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7980A4711F6C059E00025C0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7980A48C1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7980A48D1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.m */,
+				7980A48F1F6C059E00025C0C /* Info.plist */,
+			);
+			path = AutoLayoutTableViewHeaderViewTests;
+			sourceTree = "<group>";
+		};
+		7980A4971F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7980A4981F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.m */,
+				7980A49A1F6C059E00025C0C /* Info.plist */,
+			);
+			path = AutoLayoutTableViewHeaderViewUITests;
+			sourceTree = "<group>";
+		};
+		BFF3E42BDB216B0DFA58E78D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A569255183CC9140D52A6B4D /* Pods-AutoLayoutTableViewHeaderView.debug.xcconfig */,
+				066F888134DD2E03DA8732D8 /* Pods-AutoLayoutTableViewHeaderView.release.xcconfig */,
+				B91817E839A812B8750EE664 /* Pods-AutoLayoutTableViewHeaderViewTests.debug.xcconfig */,
+				05D178BF66FFFDC2917ECC87 /* Pods-AutoLayoutTableViewHeaderViewTests.release.xcconfig */,
+				C60B7D0E3E7D895408344C82 /* Pods-AutoLayoutTableViewHeaderViewUITests.debug.xcconfig */,
+				B4DA8777B4950F67345E58C7 /* Pods-AutoLayoutTableViewHeaderViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7980A46C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7980A49D1F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderView" */;
+			buildPhases = (
+				25F5CB8B9DCC4022DDB88EB5 /* [CP] Check Pods Manifest.lock */,
+				7980A4691F6C059E00025C0C /* Sources */,
+				7980A46A1F6C059E00025C0C /* Frameworks */,
+				7980A46B1F6C059E00025C0C /* Resources */,
+				05DEDB797483744621C0CAE1 /* [CP] Embed Pods Frameworks */,
+				4527202DF4E6A72885F7D7EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayoutTableViewHeaderView;
+			productName = AutoLayoutTableViewHeaderView;
+			productReference = 7980A46D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7980A4881F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7980A4A01F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderViewTests" */;
+			buildPhases = (
+				9A3562038F9A4954C931B3B8 /* [CP] Check Pods Manifest.lock */,
+				7980A4851F6C059E00025C0C /* Sources */,
+				7980A4861F6C059E00025C0C /* Frameworks */,
+				7980A4871F6C059E00025C0C /* Resources */,
+				B14B3C5D70A129B667D3086F /* [CP] Embed Pods Frameworks */,
+				2BA29D75A7C1420D48AE61EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7980A48B1F6C059E00025C0C /* PBXTargetDependency */,
+			);
+			name = AutoLayoutTableViewHeaderViewTests;
+			productName = AutoLayoutTableViewHeaderViewTests;
+			productReference = 7980A4891F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7980A4931F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7980A4A31F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderViewUITests" */;
+			buildPhases = (
+				71CD93B671B97C4112905E6A /* [CP] Check Pods Manifest.lock */,
+				7980A4901F6C059E00025C0C /* Sources */,
+				7980A4911F6C059E00025C0C /* Frameworks */,
+				7980A4921F6C059E00025C0C /* Resources */,
+				AB89E0079F41F97D1FF73634 /* [CP] Embed Pods Frameworks */,
+				DA65FE8B9F526BC788DB689B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7980A4961F6C059E00025C0C /* PBXTargetDependency */,
+			);
+			name = AutoLayoutTableViewHeaderViewUITests;
+			productName = AutoLayoutTableViewHeaderViewUITests;
+			productReference = 7980A4941F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7980A4651F6C059E00025C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Czw;
+				TargetAttributes = {
+					7980A46C1F6C059E00025C0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7980A4881F6C059E00025C0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7980A46C1F6C059E00025C0C;
+					};
+					7980A4931F6C059E00025C0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7980A46C1F6C059E00025C0C;
+					};
+				};
+			};
+			buildConfigurationList = 7980A4681F6C059E00025C0C /* Build configuration list for PBXProject "AutoLayoutTableViewHeaderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7980A4641F6C059E00025C0C;
+			productRefGroup = 7980A46E1F6C059E00025C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7980A46C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */,
+				7980A4881F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests */,
+				7980A4931F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7980A46B1F6C059E00025C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7980A4831F6C059E00025C0C /* LaunchScreen.storyboard in Resources */,
+				7980A4801F6C059E00025C0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4871F6C059E00025C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4921F6C059E00025C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DEDB797483744621C0CAE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderView/Pods-AutoLayoutTableViewHeaderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F5CB8B9DCC4022DDB88EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA29D75A7C1420D48AE61EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewTests/Pods-AutoLayoutTableViewHeaderViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4527202DF4E6A72885F7D7EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderView/Pods-AutoLayoutTableViewHeaderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71CD93B671B97C4112905E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3562038F9A4954C931B3B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB89E0079F41F97D1FF73634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewUITests/Pods-AutoLayoutTableViewHeaderViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14B3C5D70A129B667D3086F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewTests/Pods-AutoLayoutTableViewHeaderViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA65FE8B9F526BC788DB689B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutTableViewHeaderViewUITests/Pods-AutoLayoutTableViewHeaderViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7980A4691F6C059E00025C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7980A47E1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodeld in Sources */,
+				790F41AF1F6C087400B15E9B /* BaseViewController.m in Sources */,
+				7980A4781F6C059E00025C0C /* ViewController.m in Sources */,
+				7980A4751F6C059E00025C0C /* AppDelegate.m in Sources */,
+				790F41B31F6C08CE00B15E9B /* FlexibleHeightView.m in Sources */,
+				790F41AA1F6C06F400B15E9B /* TableViewController.m in Sources */,
+				790F41B61F6C0E4D00B15E9B /* ErrorTabelViewController.m in Sources */,
+				7980A4721F6C059E00025C0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4851F6C059E00025C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7980A48E1F6C059E00025C0C /* AutoLayoutTableViewHeaderViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7980A4901F6C059E00025C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7980A4991F6C059E00025C0C /* AutoLayoutTableViewHeaderViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7980A48B1F6C059E00025C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7980A46C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */;
+			targetProxy = 7980A48A1F6C059E00025C0C /* PBXContainerItemProxy */;
+		};
+		7980A4961F6C059E00025C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7980A46C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView */;
+			targetProxy = 7980A4951F6C059E00025C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7980A4811F6C059E00025C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7980A4821F6C059E00025C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7980A49B1F6C059E00025C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7980A49C1F6C059E00025C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7980A49E1F6C059E00025C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A569255183CC9140D52A6B4D /* Pods-AutoLayoutTableViewHeaderView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./AutoLayoutTableViewHeaderView/prefix.pch;
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7980A49F1F6C059E00025C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066F888134DD2E03DA8732D8 /* Pods-AutoLayoutTableViewHeaderView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./AutoLayoutTableViewHeaderView/prefix.pch;
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7980A4A11F6C059E00025C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91817E839A812B8750EE664 /* Pods-AutoLayoutTableViewHeaderViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutTableViewHeaderView.app/AutoLayoutTableViewHeaderView";
+			};
+			name = Debug;
+		};
+		7980A4A21F6C059E00025C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D178BF66FFFDC2917ECC87 /* Pods-AutoLayoutTableViewHeaderViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutTableViewHeaderView.app/AutoLayoutTableViewHeaderView";
+			};
+			name = Release;
+		};
+		7980A4A41F6C059E00025C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60B7D0E3E7D895408344C82 /* Pods-AutoLayoutTableViewHeaderViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoLayoutTableViewHeaderView;
+			};
+			name = Debug;
+		};
+		7980A4A51F6C059E00025C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DA8777B4950F67345E58C7 /* Pods-AutoLayoutTableViewHeaderViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AutoLayoutTableViewHeaderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Insist.AutoLayoutTableViewHeaderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoLayoutTableViewHeaderView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7980A4681F6C059E00025C0C /* Build configuration list for PBXProject "AutoLayoutTableViewHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7980A49B1F6C059E00025C0C /* Debug */,
+				7980A49C1F6C059E00025C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7980A49D1F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7980A49E1F6C059E00025C0C /* Debug */,
+				7980A49F1F6C059E00025C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7980A4A01F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7980A4A11F6C059E00025C0C /* Debug */,
+				7980A4A21F6C059E00025C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7980A4A31F6C059E00025C0C /* Build configuration list for PBXNativeTarget "AutoLayoutTableViewHeaderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7980A4A41F6C059E00025C0C /* Debug */,
+				7980A4A51F6C059E00025C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7980A47C1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7980A47D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodel */,
+			);
+			currentVersion = 7980A47D1F6C059E00025C0C /* AutoLayoutTableViewHeaderView.xcdatamodel */;
+			path = AutoLayoutTableViewHeaderView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7980A4651F6C059E00025C0C /* Project object */;
+}
