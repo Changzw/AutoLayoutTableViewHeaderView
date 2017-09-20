@@ -1,5 +1,5 @@
 # AutoLayoutTableViewHeaderView
- (说明文档)[http://www.jianshu.com/p/4009ccb0060c]
+ [说明文档](http://www.jianshu.com/p/4009ccb0060c)
 AutoLayoutTableViewHeaderView
 # View in normal View
 ![normal](https://github.com/Changzw/AutoLayoutTableViewHeaderView/blob/master/normal.png)
